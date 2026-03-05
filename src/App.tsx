@@ -9,9 +9,6 @@ import {
 } from "react-icons/fa";
 
 import capaTarot       from "./capataro.jpg";
-import fundoCura       from "./fundocura.jpg";
-import fundoEquilibrio from "./fundoequilibrio.png";
-
 import imgIntuitivo  from "./intuitivo.png";
 import imgAmoroso    from "./amoroso.png";
 import imgCaminhos   from "./caminhos.png";
