@@ -172,7 +172,7 @@ function useScrollReveal() {
     const els = document.querySelectorAll(".reveal");
     const observer = new IntersectionObserver(
       (entries) => {
-        entries.forEach((e, i) => {
+        entries.forEach((e) => {
           if (e.isIntersecting) {
             const el = e.target as HTMLElement;
             const delay = el.dataset.delay || "0";
